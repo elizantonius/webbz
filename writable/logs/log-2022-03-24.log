@@ -1,0 +1,11 @@
+CRITICAL - 2022-03-24 11:12:21 --> Call to undefined function link_tag()
+#0 /home/rygba/Workstation/webbz/system/View/View.php(210): include()
+#1 /home/rygba/Workstation/webbz/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/rygba/Workstation/webbz/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /home/rygba/Workstation/webbz/app/Controllers/Beranda.php(11): view()
+#4 /home/rygba/Workstation/webbz/system/CodeIgniter.php(832): App\Controllers\Beranda->index()
+#5 /home/rygba/Workstation/webbz/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/webbz/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/webbz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/webbz/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
