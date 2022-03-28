@@ -33,6 +33,11 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Beranda::index');
 
+//Admin
+
+$routes->resource("Auth");
+$routes->resource("Mendaftar");
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

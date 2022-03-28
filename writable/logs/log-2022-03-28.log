@@ -1,0 +1,50 @@
+CRITICAL - 2022-03-28 14:45:14 --> Invalid file: login.php
+#0 /home/rygba/Workstation/webbz/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/rygba/Workstation/webbz/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/webbz/app/Controllers/Admin/Auth.php(11): view()
+#3 /home/rygba/Workstation/webbz/system/CodeIgniter.php(832): App\Controllers\Admin\Auth->index()
+#4 /home/rygba/Workstation/webbz/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/webbz/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/webbz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/webbz/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-03-28 14:48:44 --> Invalid file: login.php
+#0 /home/rygba/Workstation/webbz/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/rygba/Workstation/webbz/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/webbz/app/Controllers/Auth.php(11): view()
+#3 /home/rygba/Workstation/webbz/system/CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 /home/rygba/Workstation/webbz/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/webbz/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/webbz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/webbz/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-03-28 14:48:49 --> Invalid file: login.php
+#0 /home/rygba/Workstation/webbz/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/rygba/Workstation/webbz/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/webbz/app/Controllers/Auth.php(11): view()
+#3 /home/rygba/Workstation/webbz/system/CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 /home/rygba/Workstation/webbz/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/webbz/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/webbz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/webbz/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-03-28 15:01:24 --> Invalid file: register.php
+#0 /home/rygba/Workstation/webbz/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/rygba/Workstation/webbz/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/webbz/app/Controllers/Mendaftar.php(11): view()
+#3 /home/rygba/Workstation/webbz/system/CodeIgniter.php(832): App\Controllers\Mendaftar->index()
+#4 /home/rygba/Workstation/webbz/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/webbz/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/webbz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/webbz/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-03-28 15:02:13 --> Invalid file: register.php
+#0 /home/rygba/Workstation/webbz/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/rygba/Workstation/webbz/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/webbz/app/Controllers/Mendaftar.php(11): view()
+#3 /home/rygba/Workstation/webbz/system/CodeIgniter.php(832): App\Controllers\Mendaftar->index()
+#4 /home/rygba/Workstation/webbz/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/webbz/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/webbz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/webbz/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
