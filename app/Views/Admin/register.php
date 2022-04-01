@@ -49,14 +49,13 @@
                                 <div class="form-group">
                                     <input type="password" class="form-control form-control-user" id="exampleInputEmail" placeholder="Sandi">
                                 </div>
+                                <a href="login.html" class="btn btn-primary btn-user btn-block">
+                                    Mendaftar
+                                </a>
 
                         </div>
-                        <a href="login.html" class="btn btn-primary btn-user btn-block">
-                            Register Account
-                        </a>
-
-
                         </form>
+
                     </div>
                 </div>
             </div>
