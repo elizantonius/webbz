@@ -32,11 +32,14 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Beranda::index');
+$routes->resource("Single");
 
-//Admin
-
+//Login
 $routes->resource("Auth");
 $routes->resource("Mendaftar");
+
+//Admin
+$routes->resource('Admin');
 
 /*
  * --------------------------------------------------------------------
